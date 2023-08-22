@@ -1,7 +1,12 @@
 package org.example;
 
+import jdk.jfr.Name;
+
+import java.lang.annotation.Target;
+
 public class Student {
 
+    @DeclarationTest("hello")
     private String name;
 
     private int age;
