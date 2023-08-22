@@ -9,6 +9,7 @@ public class Student {
     @DeclarationTest("hello")
     private String name;
 
+    @DeclarationTest("by maxsex")
     private int age;
 
     public String getName() {
