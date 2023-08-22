@@ -1,8 +1,5 @@
 package org.example;
 
-import jdk.jfr.Name;
-
-@Name("test")
 public class Student {
 
     private String name;
