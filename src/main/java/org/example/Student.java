@@ -1,15 +1,11 @@
 package org.example;
 
-import jdk.jfr.Name;
-
-import java.lang.annotation.Target;
-
 public class Student {
 
-    @DeclarationTest("hello")
+    @SetValue("Оля")
     private String name;
 
-    @DeclarationTest("by maxsex")
+    @SetValue("5")
     private int age;
 
     public String getName() {
